@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list     xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <shape android:shape="rectangle">
+
+
+
+            <!-- 线段的 颜色 和 线宽(厚度) 由 stroke 元素指定-->
+            <stroke
+                android:width="0dp"
+                android:color="#C5C1C1" />
+            <solid
+                android:color="#C5C1C1"/>
+
+        </shape>
+    </item>
+    <item
+        android:left="10dp"
+        android:right="10dp">
+
+        <shape android:shape="line">
+
+            <!-- 如果指定尺寸, 则线段为该尺寸宽高的矩形中间的一条线, 没有指定则跟随控件宽高 -->
+
+
+            <!-- 线段的 颜色 和 线宽(厚度) 由 stroke 元素指定-->
+            <stroke
+                android:width="1dp"
+                android:color="#800000" />
+
+        </shape>
+    </item>
+
+</layer-list>
+
+
